@@ -1,0 +1,14 @@
+.navbar{
+    display: flex;
+    
+}
+
+.navbar ul{
+    display: flex;
+    gap: 40px;
+}
+
+.navbar ul li{
+    display: flex;
+    flex-direction: column;
+}
