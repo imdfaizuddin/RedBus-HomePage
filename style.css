@@ -1,6 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    height: 100%;
+}
 .navbar{
     display: flex;
-    
+    height: 20vh;
+    justify-content: space-around;
 }
 
 .navbar ul{
@@ -11,4 +20,11 @@
 .navbar ul li{
     display: flex;
     flex-direction: column;
+}
+
+.nav--help{
+    display: flex;
+}
+.help{
+    display: inline;
 }
