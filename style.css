@@ -4,6 +4,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    max-width: 1200px;
+    margin: auto;
 }
 img{
     height: 100%;
@@ -13,8 +15,6 @@ img{
     height: 80px;
     justify-content: space-around;
     padding: 10px 50px;
-    max-width: 1200px;
-    margin: auto;
 }
 
 .navbar ul{
@@ -51,4 +51,23 @@ img{
     align-items: center;
     height: 20px;
     font-size: small;
+}
+
+/* Footer */
+#footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.socials{
+    display: flex;
+    gap: 1.5rem;
+}
+
+/* Section one */
+.sectionOne{
+    background-image: url(./assets/HeroImageV2_C.png);
+    height: 200px;
+    width: 100%;
+    background-size: cover;
 }
