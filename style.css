@@ -4,23 +4,48 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-    max-width: 1200px;
-    margin: auto;
+    /* margin: auto; */
 }
 img{
     height: 100%;
 }
-.navbar{
+.header{
     display: flex;
-    height: 80px;
-    justify-content: space-around;
-    padding: 10px 50px;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    height: 6.25rem;
+    width: 100%;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #fff;
 }
 
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px;
+}
+.navbar > img{
+    width: 5rem;
+    height: 3rem;
+    cursor: pointer;
+}
+.vertical_seperator{
+
+    width: 1px;
+    height: 20px;
+    background: #e0e0e0;
+    color: #e0e0e0;
+    margin: 0 3.375rem 0 4rem;
+}
 .navbar ul{
     display: flex;
     gap: 40px;
-    margin: auto;
+    /* margin: auto; */
     height: 22px;
     font-size: small;
 }
@@ -36,7 +61,7 @@ img{
 
 .nav--end{
     display: flex;
-    margin: auto;
+    margin-left: auto;
 }
 .nav--end > ul{
     display: flex;
@@ -66,8 +91,13 @@ img{
 
 /* Section one */
 .sectionOne{
+    display: flex;
+    text-align: center;
     background-image: url(./assets/HeroImageV2_C.png);
-    height: 200px;
+    height: 32.5rem;
     width: 100%;
     background-size: cover;
+}
+.section-one-heading{
+    color: white;
 }
