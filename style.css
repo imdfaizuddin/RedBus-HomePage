@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -46,20 +46,39 @@ img{
     display: flex;
     gap: 40px;
     /* margin: auto; */
-    height: 22px;
+    /* height: 22px; */
     font-size: small;
 }
 
 .navbar ul li{
+    padding: 0 15px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 5px;
 }
 .nav--mid{
     margin: auto;
 }
-
+.nav-bus-ticket{
+    border-radius: 8px;
+    color: white;
+    background-color: #d84e55;
+    /* height: 100%;
+    width: 100%; */
+}
+.nav-bus-ticket img{
+    height: 29px;
+    padding: 4px;
+    filter: brightness(0) invert(1);
+}
+.nav-bus-ticket:last-child{
+    font-weight: 500;
+}
 .nav--end{
+    font-size: 14px;
+    font-weight: 500;
+    color: #1d1d1d;
     display: flex;
     margin-left: auto;
 }
