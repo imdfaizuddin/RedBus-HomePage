@@ -97,6 +97,33 @@ img{
     font-size: small;
 }
 
+/* Section one */
+.section-one{
+    display: flex;
+    text-align: center;
+    background-image: url(./assets/HeroImageV2_C.png);
+    height: 32.5rem;
+    width: 100%;
+    background-size: cover;
+    /* align-items: center; */
+    justify-content: center;
+}
+.section-one-heading{
+    color: white;
+}
+
+.filter-bus{
+    display: flex;
+    width: 80%;
+}
+.filter-bus img{
+    height: 30px;
+    width: 30px;
+}
+.filter-bus div{
+    display: flex;
+    padding: 20px;
+}
 /* Footer */
 #footer{
     display: flex;
@@ -106,17 +133,4 @@ img{
 .socials{
     display: flex;
     gap: 1.5rem;
-}
-
-/* Section one */
-.sectionOne{
-    display: flex;
-    text-align: center;
-    background-image: url(./assets/HeroImageV2_C.png);
-    height: 32.5rem;
-    width: 100%;
-    background-size: cover;
-}
-.section-one-heading{
-    color: white;
 }
