@@ -114,7 +114,9 @@ img{
 
 .filter-bus{
     display: flex;
-    width: 80%;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 2rem;
 }
 .filter-bus img{
     height: 30px;
@@ -122,7 +124,22 @@ img{
 }
 .filter-bus div{
     display: flex;
+    align-items: center;
+    gap: 10px;
     padding: 20px;
+    height: 110px;
+    border-right: solid 1px;
+}
+.filter-bus .search{
+    color: #fff;
+    height: 110px;
+    width: 240px;
+    background-color: #d84e55;
+    border: none;
+    border-radius: 0 2rem 2rem 0;
+}
+.filter-bus input{
+    border: none;
 }
 /* Footer */
 #footer{
