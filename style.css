@@ -11,8 +11,8 @@ img{
 }
 .header{
     display: flex;
-    align-items: center;
     max-width: 1200px;
+    align-items: center;
     margin: auto;
     height: 6.25rem;
     width: 100%;
@@ -99,11 +99,11 @@ img{
 
 /* Section one */
 .section-one{
-    display: flex;
+    /* display: flex; */
     text-align: center;
     background-image: url(./assets/HeroImageV2_C.png);
     height: 32.5rem;
-    width: 100%;
+    width: 100% !important;
     background-size: cover;
     /* align-items: center; */
     justify-content: center;
@@ -111,7 +111,10 @@ img{
 .section-one-heading{
     color: white;
 }
-
+.filter-bus-container{
+    width: 880px;
+    margin: auto;
+}
 .filter-bus{
     display: flex;
     align-items: center;
@@ -141,10 +144,24 @@ img{
 .filter-bus input{
     border: none;
 }
+.carousel{
+    display: flex;
+    margin: auto;
+    width: 900px;
+    overflow-x: scroll;
+    gap: 10px;
+}
+.carousel> div{
+    height: 200px;
+    min-width: 400px;
+    background-color: aqua;
+}
 /* Footer */
 #footer{
     display: flex;
     justify-content: space-around;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .socials{
