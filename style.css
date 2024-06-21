@@ -204,6 +204,18 @@ img{
 .cardRight img{
     width: 15px;
 }
+.cardBus{
+    background-color: #ffffff60;
+    border-radius: 18px;
+    font-size: 12px;
+    padding: 0px 7px;
+}
+.cardRight > div > p{
+    background-color: #ffffff60;
+    padding: 0 7px;
+    border-radius: 8px;
+    border: dashed white 1px;
+}
 /* Footer */
 #footer{
     display: flex;
