@@ -159,7 +159,7 @@ img{
     gap: 10px; 
 }
 .carousel> div{
-    height: 180px;
+    height: 170px;
     min-width: 20.3rem;
     background-color: aqua;
 }
@@ -186,12 +186,13 @@ img{
     width: 5.5rem;
     border-radius: 50%;
     padding: 10px;
+    margin-left: 15px;
 }
 .cardRight{
     display: flex;
     flex-direction: column;
     align-items: start;
-    margin-left: 45px;
+    margin-left: 59px;
 }
 .cardRight > h3{
     font-size: medium;
@@ -200,6 +201,7 @@ img{
     display: flex;
     align-items: center;
     gap: 10px;
+    margin-bottom: 5px;
 }
 .cardRight img{
     width: 15px;
@@ -218,6 +220,9 @@ img{
 }
 .crdTwo{
     background-image: linear-gradient(71.04deg, rgb(72, 0, 4) -6.92%, rgb(216, 78, 85) 109.43%);
+}
+.crdThree{
+    background-image: linear-gradient(71.04deg, rgb(14, 113, 67) -6.92%, rgb(115, 236, 179) 109.43%);
 }
 /* Footer */
 #footer{
