@@ -101,17 +101,27 @@ img{
 .section-one{
     /* display: flex; */
     text-align: center;
-    background-image: url(./assets/HeroImageV2_C.png);
+    background-image: url(./assets/HomeBannerNew_2000.png);
     height: 32.5rem;
     width: 100% !important;
     background-size: cover;
     /* align-items: center; */
     justify-content: center;
 }
+.section-one-container{
+    position: relative;
+}
 .section-one-heading{
+    font-size: 32px;
     color: white;
+    position: absolute;
+    top: 55px;
+    left: 425px;
 }
 .filter-bus-container{
+    position: absolute;
+    top: 150px;
+    left: 290px;
     width: 880px;
     margin: auto;
 }
@@ -145,6 +155,9 @@ img{
     border: none;
 }
 .trendingOffers{
+    position: absolute;
+    top: 550px;
+    left: 280px;
     width: 900px;
     margin: auto;
     background-color: white;
