@@ -154,6 +154,12 @@ img{
 .filter-bus input{
     border: none;
 }
+.offersHeading{
+    text-align: start;
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin: 0px 0px 25px 0px;
+}
 .trendingOffers{
     position: absolute;
     top: 550px;
@@ -163,6 +169,10 @@ img{
     background-color: white;
     padding: 32px;
     border-radius: 1rem;
+}
+.search{
+    font-weight: 600;
+    font-size: 19px;
 }
 .carousel{
     display: flex;
