@@ -263,6 +263,18 @@ img{
         rgb(255, 194, 111) 109.43%
       );
 }
+.section-two{
+    position: relative;
+    top: 245px;
+    display: flex;
+}
+.section-two h2{
+    font-size: 2.5rem;
+    font-weight: 350;
+}
+.section-two-span{
+    font-weight: 700
+}
 /* Footer */
 #footer{
     display: flex;
