@@ -275,6 +275,16 @@ img{
 .section-two-span{
     font-weight: 700
 }
+.section-two-right div{
+    width: 180px;
+    display: flex;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 5px 10px;
+    color: #d84e55;
+    justify-content: center;
+    border-bottom: solid #d84e55;
+}
 /* Footer */
 #footer{
     display: flex;
