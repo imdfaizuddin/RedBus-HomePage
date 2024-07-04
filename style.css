@@ -275,7 +275,7 @@ img{
 .section-two-span{
     font-weight: 700
 }
-.section-two-right div{
+#section-two-right-train-tickets{
     width: 180px;
     display: flex;
     font-weight: 700;
@@ -284,6 +284,9 @@ img{
     color: #d84e55;
     justify-content: center;
     border-bottom: solid #d84e55;
+}
+.section-two-right p{
+    font-size: 1rem;
 }
 /* Footer */
 #footer{
