@@ -288,6 +288,10 @@ img{
 .section-two-right p{
     font-size: 1rem;
 }
+.irctcPartner{
+    display: flex;
+    gap: 1.5rem;
+}
 /* Footer */
 #footer{
     display: flex;
