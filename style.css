@@ -275,6 +275,11 @@ img{
 .section-two-span{
     font-weight: 700
 }
+.section-two-right{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
 #section-two-right-train-tickets{
     width: 180px;
     display: flex;
@@ -289,8 +294,10 @@ img{
     font-size: 1rem;
 }
 .irctcPartner{
+    font-weight: 700;
     display: flex;
     gap: 1.5rem;
+    margin: 15px 0px;
 }
 /* Footer */
 #footer{
