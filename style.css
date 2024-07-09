@@ -299,6 +299,23 @@ img{
     gap: 1.5rem;
     margin: 15px 0px;
 }
+#book-train-ticket-btn{
+    color: #fff;
+    text-align: center;
+    border-radius: 8px;
+    text-decoration: none;
+    background-color: rgb(216, 78, 85);
+    width: 223px;
+    border-color: rgb(216, 78, 85);
+}
+#book-train-ticket-div{
+    width: 200px;
+    text-align: center;
+    padding: 15px 20px;
+    border-radius: 12px;
+    font-weight: 700;
+    background-color: rgb(216, 78, 85);
+}
 /* Footer */
 #footer{
     display: flex;
