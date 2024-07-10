@@ -264,9 +264,17 @@ img{
       );
 }
 .section-two{
+    width: 900px;
     position: relative;
     top: 245px;
     display: flex;
+    margin: auto;
+}
+.section-two-left{
+    width: 50%;
+}
+.section-two > div{
+    flex-grow: 1;
 }
 .section-two h2{
     font-size: 2.5rem;
@@ -275,12 +283,13 @@ img{
 .section-two-span{
     font-weight: 700
 }
-.section-two-right{
+.section-two-left{
     display: flex;
     flex-direction: column;
     gap: 30px;
+    width: 50%;
 }
-#section-two-right-train-tickets{
+#section-two-left-train-tickets{
     width: 180px;
     display: flex;
     font-weight: 700;
@@ -290,7 +299,7 @@ img{
     justify-content: center;
     border-bottom: solid #d84e55;
 }
-.section-two-right p{
+.section-two-left p{
     font-size: 1rem;
 }
 .irctcPartner{
