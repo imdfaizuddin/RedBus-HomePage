@@ -4,7 +4,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-    /* margin: auto; */
 }
 img{
     height: 100%;
@@ -45,8 +44,6 @@ img{
 .navbar ul{
     display: flex;
     gap: 40px;
-    /* margin: auto; */
-    /* height: 22px; */
     font-size: small;
 }
 
@@ -64,8 +61,6 @@ img{
     border-radius: 8px;
     color: white;
     background-color: #d84e55;
-    /* height: 100%;
-    width: 100%; */
 }
 .nav-bus-ticket img{
     height: 29px;
@@ -99,13 +94,11 @@ img{
 
 /* Section one */
 .section-one{
-    /* display: flex; */
     text-align: center;
     background-image: url(./assets/HomeBannerNew_2000.png);
     height: 32.5rem;
     width: 100% !important;
     background-size: cover;
-    /* align-items: center; */
     justify-content: center;
 }
 .section-one-container{
@@ -177,7 +170,6 @@ img{
 .carousel{
     display: flex;
     margin: auto;
-    /* width: 900px; */
     overflow-x: scroll;
     gap: 10px; 
 }
@@ -225,7 +217,6 @@ img{
     display: flex;
     align-items: center;
     gap: 10px;
-    /* margin-bottom: 5px; */
 }
 .cardRight img{
     width: 15px;
