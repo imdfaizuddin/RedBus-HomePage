@@ -316,6 +316,12 @@ img{
     font-weight: 700;
     background-color: rgb(216, 78, 85);
 }
+/* App install Div */
+.app-download{
+    background-image: url(./assets/appInstallbg.svg);
+    height: 400px;
+    /* width: 800px; */
+}
 /* Footer */
 #footer{
     display: flex;
