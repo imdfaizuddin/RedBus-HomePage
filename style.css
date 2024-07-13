@@ -322,6 +322,9 @@ img{
     height: 400px;
     /* width: 800px; */
 }
+.app-info-keyFeature{
+    background-color: #fff;
+}
 /* Footer */
 #footer{
     display: flex;
