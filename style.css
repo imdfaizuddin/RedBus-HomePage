@@ -318,12 +318,18 @@ img{
 }
 /* App install Div */
 .app-download{
+    display: flex;
+    flex-direction: column;
     background-image: url(./assets/appInstallbg.svg);
     height: 400px;
     /* width: 800px; */
 }
 .app-info-keyFeature{
     background-color: #fff;
+    width: 200px;
+}
+.app-info{
+    display: flex;
 }
 /* Footer */
 #footer{
